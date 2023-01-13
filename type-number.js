@@ -1,24 +1,24 @@
+// tipo Number
 
+const meuNumero = 3;
 
-const meuNumero = 3 ;
+const primeiroNumero = 1;
+const segundoNumero = 2;
 
-const primeiroNumero = 1 ; 
-const segundoNumero = 2 ;
+const operacaoMatematica = primeiroNumero - segundoNumero;
 
-const operacaoMatematica = primeiroNumero + segundoNumero ;
-const bitelo21 = 'Tmj Ronaldo'
+console.log(operacaoMatematica)
 
+// ponto flutuante
 
-console.log(operacaoMatematica) ;
-console.log(bitelo21) ;
+const numeroPontoFlutuante = 3.3;
+const pontoFlutuanteSemZero = .5;
 
+const novaOperacao = primeiroNumero / numeroPontoFlutuante;
 
-const cifrao = '\u0024'
-const aMaiusculo = '\u0041'
-const tique = '\u2705'
-const hiragana = '\u3041'
+console.log(novaOperacao)
 
-console.log(cifrao)
-console.log(aMaiusculo)
-console.log(tique)
-console.log(hiragana)
+// NaN -> Not A Number (não é um número)
+
+const alura = "Alura";
+console.log(alura * primeiroNumero)
